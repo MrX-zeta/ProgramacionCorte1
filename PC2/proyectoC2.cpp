@@ -26,11 +26,11 @@ int main(){
     float a, b;
     cout<<"Ingrese el valor del cateto opuesto: "; cin>>a;
     while(a<=0){
-        cout<<"El valor del cateto opuesto debe ser mayor a 0. Ingrese nuevamente el valor: "; cin>>a;
+        cout<<"El valor del cateto opuesto debe ser mayor a 0. Ingrese nuevamente el valor de b: "; cin>>a;
     }
     cout<<"Ingrese el valor del cateto adyacente: "; cin>>b;
     while(b<=0){
-        cout<<"El valor del cateto adyacente debe ser mayor a 0. Ingrese nuevamente el valor: "; cin>>b;
+        cout<<"El valor del cateto adyacente debe ser mayor a 0. Ingrese nuevamente el valor de a: "; cin>>b;
     }
     cout<<"El valor de la hipotenusa es: "<<calcularHipotenusa(a, b)<<endl;
     cout<<"El valor del perimetro es: "<<calcularPerimetro(a, b)<<endl;

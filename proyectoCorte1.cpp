@@ -17,7 +17,7 @@ int main(){
     cout<<"El valor de la hipotenusa es: "<<c<<endl;
     perimetro = a+b+c;
     cout<<"El perimetro del triangulo es: "<<perimetro<<endl;
-    angulo = atan(a/b) * (180.0 / M_PI); //Conversion de radianes a grados
+    angulo = atan(a/b) * (180.0 / M_PI);
     angulo = round(angulo * 100) / 100;
     cout<<"El angulo del triangulo en grados es: "<<angulo<<" grados"<<endl;
     if(a == b){
